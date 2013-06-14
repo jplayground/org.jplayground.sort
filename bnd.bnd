@@ -1,0 +1,8 @@
+Bundle-Name: org.jplayground.sort
+Bundle-Description: A collection of sorting algorithms
+Bundle-Version: 0.0.1
+Export-Package: org.jplayground.tests.sort,\
+	org.jplayground.sort
+Test-Cases: org.jplayground.tests.sort.BubbleSortTest
+-buildpath: osgi.core,\
+	biz.aQute.junit
